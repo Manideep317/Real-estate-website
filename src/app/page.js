@@ -13,8 +13,8 @@ export default async function Home() {
       <div className="lg:flex lg:flex-row-reverse pt-[3.7rem] w-full">
 
         <div className="flex flex-col lg:w-[50%] lg:h-[80vh] items-center relative">
-          <Image src={homeImg} className="max-md:w-[90%] max-lg:w-[80%] max-lg:mt-[1rem] lg:h-[100%] lg:w-[100%] max-lg:rounded-lg" />
-          <Image src={stamp} className="z-10 max-md:max-w-[30%] lg:-translate-x-[23vw] lg:translate-y-1/3 max-md:relative absolute max-md:right-[30%] max-md:bottom-[4rem]" />
+          <Image src={homeImg} alt="building img" className="max-md:w-[90%] max-lg:w-[80%] max-lg:mt-[1rem] lg:h-[100%] lg:w-[100%] max-lg:rounded-lg" />
+          <Image src={stamp} alt="stamp image" className="z-10 max-md:max-w-[30%] lg:-translate-x-[23vw] lg:translate-y-1/3 max-md:relative absolute max-md:right-[30%] max-md:bottom-[4rem]" />
         </div>
         <div className="mx-[1rem] lg:mx-[5vw] lg:my-auto flex flex-col justify-center lg:w-[50%]">
           <div className=" relative bottom-14">
@@ -45,19 +45,19 @@ export default async function Home() {
       </div>
       <div className="mx-2 mt-[0.25rem] border-4 border-[#141414] border-opacity-45 grid max-lg:grid-cols-2 lg:grid-cols-4 rounded-lg">
         <div className="py-[1rem] bg-[#242424] flex flex-col justify-center items-center border-2 border-opacity-50 border-[#343434] rounded-lg m-[0.25rem]">
-          <Image src={hIcon}></Image>
+          <Image alt="home icon" src={hIcon}></Image>
           <p className="text-center pt-2 text-[1.05rem]">Find your Dream Home</p>
         </div>
         <div className="py-[1rem] flex flex-col justify-center items-center border-2 bg-[#242424] border-opacity-50 border-[#343434] rounded-lg m-[0.25rem]">
-          <Image src={cash}></Image>
+          <Image alt="cash icon" src={cash}></Image>
           <p className="text-center pt-2 text-[1.05rem]">Unlock your property Value</p>
         </div>
         <div className="py-[1rem] border-2 flex flex-col justify-center items-center bg-[#242424] border-opacity-50 border-[#343434] rounded-lg m-[0.25rem]">
-          <Image src={building}></Image>
+          <Image alt="buiding icon" src={building}></Image>
           <p className="text-center pt-2 text-[1.05rem]">Effortless Property Management</p>
         </div>
         <div className="py-[1rem] flex flex-col justify-center items-center border-2 bg-[#242424] border-opacity-50 border-[#343434] rounded-lg m-[0.25rem]">
-          <Image src={sun}></Image>
+          <Image alt="sun icon" src={sun}></Image>
           <p className="text-center pt-2 text-[1.05rem]">Smart Investments Informed Decisions</p>
         </div>
       </div>

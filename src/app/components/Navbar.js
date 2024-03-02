@@ -19,7 +19,7 @@ export default function Navbar() {
                 pageWidth > 850 ? (
                     <div className="flex justify-between items-center w-full">
                         <div className="flex items-center">
-                            <Image src={logo} />
+                            <Image alt='estatein' src={logo} />
                         </div>
                         <div className="min-w-[30%] flex justify-between">
                             <Link className='p-3 rounded-md active:bg-black active:border-[#262626] active:border-spacing-2' href="/">Home</Link>

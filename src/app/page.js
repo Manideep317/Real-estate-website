@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import homeImg from '@/public/homeImg.png'
 import stamp from '@/public/home-stamp.png'
@@ -70,18 +69,18 @@ export default async function Home() {
             <p className="text-[#999999]">Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein.</p>
           </div>
           <div className="max-md:hidden">
-            <button className="bg-[#1A1A1A] rounded-lg p-4">View all Properties</button>
+            <button className="bg-[#1A1A1A] rounded-lg p-4">View Properties</button>
           </div>
         </div>
         <Carousel />
       </div>
-      <div className="mx-[1rem] mt-[3.7rem] lg:mx-[5vw]">
-        <div className="md:w-[70%]">
+      <div className="mx-[1rem] flex items-center justify-between mt-[3.7rem] lg:mx-[5vw]">
+        <div className="md:w-[65%] flex flex-col mb-3">
           <h1 className="text-[1.8rem] lg:text-[3rem] font-semibold">What Our Clients Say</h1>
           <p className="text-[#999999]">Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.</p>
         </div>
         <div className="max-md:hidden">
-          <button className="bg-[#1A1A1A] rounded-lg p-4">View all Properties</button>
+          <button className="bg-[#1A1A1A] rounded-lg p-4">View Testimonials</button>
         </div>
       </div>
     </main>

@@ -3,33 +3,29 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from '@/public/Logo.png';
+import MobileNavbar from './MobileNavbar';
 
 export default function Navbar() {
     const [pageWidth, setPageWidth] = useState(window.screen.width);
-    const [sidebarOpen, setSidebarOpen] = useState(false);
 
     useEffect(() => {
         setPageWidth(window.screen.width);
         console.log(window.screen.width);
     }, [window]);
 
-    const handleSidebar = () => {
-        setSidebarOpen(!sidebarOpen);
-    };
-
     return (
-        <header className='py-[1rem] z-50 top-0 flex justify-between items-center px-[1.5rem] fixed min-w-full bg-[#1A1A1A]'>
-            <div className="flex items-center">
-                <Image src={logo}/>
-            </div>
+        <header className='py-[1rem] z-50 top-0 flex items-center px-[1.5rem] fixed min-w-full bg-[#1A1A1A]'>
             {
                 pageWidth > 850 ? (
-                    <div className="flex">
-                        <div className="">
-                        <Link href="/">Home</Link>
-                        <Link href="/">About us</Link>
-                        <Link href="/">Properties</Link>
-                        <Link href="/">Services</Link>
+                    <div className="flex justify-between items-center w-full">
+                        <div className="flex items-center">
+                            <Image src={logo} />
+                        </div>
+                        <div className="min-w-[30%] flex justify-between">
+                            <Link className='p-3 rounded-md active:bg-black active:border-[#262626] active:border-spacing-2' href="/">Home</Link>
+                            <Link className='p-3 rounded-md active:bg-black active:border-[#262626] active:border-spacing-2' href="/">About us</Link>
+                            <Link className='p-3 rounded-md active:bg-black active:border-[#262626] active:border-spacing-2' href="/">Properties</Link>
+                            <Link className='p-3 rounded-md active:bg-black active:border-[#262626] active:border-spacing-2' href="/">Services</Link>
                         </div>
                         <div className="">
                             <button>Contact us</button>
@@ -37,34 +33,10 @@ export default function Navbar() {
                     </div>
 
                 ) : (
-                    <div className="">
-                        {sidebarOpen ? (
-                            <div className="flex cursor-pointer" onClick={handleSidebar}>
-                                <div className="font-bold text-2xl">x</div>
-                            </div>
-                        ) : (
-                            <div className="flex flex-col items-end cursor-pointer" onClick={handleSidebar}>
-                                <div className="bg-white w-[18px] h-[2px] mb-1"></div>
-                                <div className="bg-white w-[18px] h-[2px] mb-1"></div>
-                                <div className="bg-white w-[9px] h-[2px] mb-1"></div>
-                            </div>
-                        )}
-                    </div>
+                    <MobileNavbar />
                 )
             }
-            {sidebarOpen ? (
-                <div className='fixed flex flex-col items-center top-[4rem] justify-between left-0 min-h-full min-w-full bg-[#141414]'>
-                    <div className='min-w-full flex flex-col bg-[#141414]'>
-                        <Link href='/' className="py-[2rem] text-center shadow-md hover:bg-black w-full px-4">Home</Link>
-                        <Link href='/' className="py-[2rem] text-center shadow-md hover:bg-black w-full px-4">About us</Link>
-                        <Link href='/' className="py-[2rem] text-center shadow-md hover:bg-black w-full px-4">Properties</Link>
-                        <Link href='/' className="py-[2rem] text-center shadow-md hover:bg-black w-full px-4">Services</Link>
-                    </div>
-                    <div className='fixed bottom-10 border-2 p-[1rem] rounded-md hover:bg-black  border-[#262626]'>
-                        <div>Contact us</div>
-                    </div>
-                </div>
-            ) : null}
+
         </header>
     );
 }

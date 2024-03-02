@@ -1,0 +1,803 @@
+[
+    {
+      "id": 1,
+      "price": 550000,
+      "villa_name": "Sunset Paradise",
+      "villa_location": "Malibu, California",
+      "tag_line": "Experience luxury living with breathtaking sunsets",
+      "type_of_house": "Villa",
+      "num_bedrooms": 5,
+      "num_bathrooms": 6,
+      "area": 6000,
+      "description": "This stunning villa offers panoramic ocean views, a private pool, and modern amenities throughout.",
+      "key_features": ["Oceanfront location", "Spacious outdoor living areas", "Gourmet kitchen"],
+      "amenities": ["Private beach access", "Tennis court", "Fitness center"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1054009363913601229/original/a470e84e-50b3-453c-a5d0-013a2161e36d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1054009363913601229/original/9f035be3-48dc-4c3c-aea8-e0bac8e7b490.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1054009363913601229/original/685a0f42-1a18-4ee6-aba9-14c4636a764a.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/b91a6113-40d7-4245-b876-f648bb942f1f.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 2,
+      "price": 720000,
+      "villa_name": "Serenity Haven",
+      "villa_location": "Aspen, Colorado",
+      "tag_line": "Escape to the mountains in style",
+      "type_of_house": "Chalet",
+      "num_bedrooms": 4,
+      "num_bathrooms": 4,
+      "area": 5500,
+      "description": "A luxurious chalet nestled in the heart of the Rocky Mountains, featuring ski-in/ski-out access and stunning views.",
+      "key_features": ["Ski-in/ski-out access", "Hot tub with mountain views", "Stone fireplace"],
+      "amenities": ["Ski valet", "Sauna", "Game room"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/b049c833-5843-4552-83e1-75b989d0fa92.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/aaf39c18-80cb-48e5-9350-255baace2768.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/c02c8d38-69b3-47cd-a851-bcd8807a77f4.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-851809378538423307/original/b19e4554-b5db-4f45-b49c-dad087a45ed5.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 3,
+      "price": 950000,
+      "villa_name": "Grand Lakeside Retreat",
+      "villa_location": "Lake Tahoe, Nevada",
+      "tag_line": "Experience the ultimate lakeside luxury",
+      "type_of_house": "Estate",
+      "num_bedrooms": 6,
+      "num_bathrooms": 7,
+      "area": 8000,
+      "description": "An exquisite estate boasting unparalleled views of Lake Tahoe, with private beach access and a dock for water activities.",
+      "key_features": ["Private beach and dock", "Outdoor kitchen and dining area", "Home theater"],
+      "amenities": ["Infinity pool", "Tennis court", "Boat house"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-28410126/original/84d58a1d-b3e9-4c9b-a769-592b26b18444.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-28410126/original/658bdcee-7c4e-4239-afa4-8448c0ffcfae.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-28410126/original/b6b92820-fdf8-4033-9422-67c5e7a15390.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-28410126/original/54495323-12e4-40e0-889a-91afaa774b63.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 4,
+      "price": 630000,
+      "villa_name": "Tranquil Oasis",
+      "villa_location": "Santorini, Greece",
+      "tag_line": "Discover tranquility in the Aegean",
+      "type_of_house": "Villa",
+      "num_bedrooms": 3,
+      "num_bathrooms": 4,
+      "area": 4000,
+      "description": "A luxurious villa perched on the cliffs of Santorini, offering stunning views of the caldera and breathtaking sunsets.",
+      "key_features": ["Infinity pool with caldera views", "Private terrace", "Cave-style architecture"],
+      "amenities": ["Jacuzzi", "Wine cellar", "Personal chef upon request"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-808400833124020947/original/61605e37-bc96-45d6-80c8-11e4d49adbb5.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-808400833124020947/original/d0a682f7-0862-48c6-9f89-15da308aa787.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-808400833124020947/original/37d98816-a84c-4610-8004-ceb2bb4bb8f0.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-808400833124020947/original/7d51a253-fad6-495d-a1ca-de7cbc4dd505.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 5,
+      "price": 880000,
+      "villa_name": "Mountain Majesty",
+      "villa_location": "Jackson Hole, Wyoming",
+      "tag_line": "Embrace the grandeur of the Tetons",
+      "type_of_house": "Cabin",
+      "num_bedrooms": 5,
+      "num_bathrooms": 5,
+      "area": 7000,
+      "description": "A secluded cabin retreat offering unparalleled views of the Grand Tetons, with rustic elegance and modern comforts.",
+      "key_features": ["Expansive windows showcasing mountain views", "Stone fireplace", "Outdoor hot tub"],
+      "amenities": ["Hiking trails", "Fishing pond", "Fire pit"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/847288ba-0809-498e-b8fb-4966ce2f2350.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/33eaed30-046e-403d-8ee6-672a31270e55.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/fd4f06a7-8677-49ec-8ab1-b21489477b26.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/6e073949-4d96-42d3-a19f-709b7013bf91.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 6,
+      "price": 490000,
+      "villa_name": "Tropical Paradise Villa",
+      "villa_location": "Maui, Hawaii",
+      "tag_line": "Indulge in island luxury",
+      "type_of_house": "Villa",
+      "num_bedrooms": 4,
+      "num_bathrooms": 3,
+      "area": 4500,
+      "description": "Escape to this stunning villa on the shores of Maui, where lush gardens and ocean breezes await.",
+      "key_features": ["Oceanfront location", "Private pool and cabana", "Tropical landscaping"],
+      "amenities": ["Spa", "Fitness center", "Concierge services"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-676063083215267677/original/e505df65-611b-4c63-954e-320f9ad5e5f0.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-676063083215267677/original/48d0e9bb-ff54-4838-922c-f0d130899127.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-676063083215267677/original/41382a30-00c2-4208-ae5c-28f0ca0497d4.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-676063083215267677/original/ca2adcba-3054-48d3-9e03-683bba89b260.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 7,
+      "price": 720000,
+      "villa_name": "Rustic Elegance Retreat",
+      "villa_location": "Lake Como, Italy",
+      "tag_line": "Experience timeless beauty on the shores of Lake Como",
+      "type_of_house": "Villa",
+      "num_bedrooms": 6,
+      "num_bathrooms": 5,
+      "area": 6000,
+      "description": "A beautifully restored villa with old-world charm and modern amenities, offering stunning views of Lake Como.",
+      "key_features": ["Lakefront terrace", "Private garden", "Antique furnishings"],
+      "amenities": ["Boat dock", "Chef's kitchen", "Wine cellar"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/07852265-7e54-4e80-a451-c5bd1dc2408c.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-697770128418629527/original/0c4cde13-99a3-4fe9-9c21-f95239ec04fd.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-697770128418629527/original/3d833333-02df-4f7a-86b4-b84fab9d7221.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/3e6fab3c-c28c-4c11-88e8-8574161d812a.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 8,
+      "price": 890000,
+      "villa_name": "Luxury Lakeside Mansion",
+      "villa_location": "Geneva, Switzerland",
+      "tag_line": "Live in luxury on the shores of Lake Geneva",
+      "type_of_house": "Mansion",
+      "num_bedrooms": 8,
+      "num_bathrooms": 9,
+      "area": 10000,
+      "description": "An opulent mansion offering unparalleled luxury and sophistication, with expansive views of Lake Geneva.",
+      "key_features": ["Private beach and pier", "Indoor swimming pool", "Grand foyer with marble floors"],
+      "amenities": ["Home theater", "Gym", "Guest house"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-937811656915873244/original/bfc44edb-bb77-4be8-9bf8-ef12f6415a58.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3ODExNjU2OTE1ODczMjQ0/original/b480e4c5-0fd9-4dd1-bc70-1b6cd5b4095a.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-937811656915873244/original/0899bda6-2875-4f80-879a-a5c83eb680a1.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTM3ODExNjU2OTE1ODczMjQ0/original/b33976e3-3827-4bf6-8376-4b342745f037.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 9,
+      "price": 550000,
+      "villa_name": "Coastal Escape",
+      "villa_location": "Big Sur, California",
+      "tag_line": "Find peace and serenity along the rugged coastline",
+      "type_of_house": "Cottage",
+      "num_bedrooms": 3,
+      "num_bathrooms": 2,
+      "area": 3000,
+      "description": "A charming coastal cottage nestled among the cliffs of Big Sur, offering stunning ocean views and tranquility.",
+      "key_features": ["Wraparound porch with ocean views", "Cozy fireplace", "Gourmet kitchen"],
+      "amenities": ["Hiking trails", "Picnic area", "Outdoor shower"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/4f7a34cd-87ec-49f6-b9fd-d37c2c1d734e.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/909cf11d-cc8e-4faa-a904-772a14388934.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/78730da0-4be9-4189-8328-9bec15689233.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/97176f5c-c17c-4044-97aa-19433850fe3c.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 10,
+      "price": 670000,
+      "villa_name": "Desert Oasis Retreat",
+      "villa_location": "Scottsdale, Arizona",
+      "tag_line": "Escape to luxury in the Sonoran Desert",
+      "type_of_house": "Villa",
+      "num_bedrooms": 4,
+      "num_bathrooms": 4,
+      "area": 5000,
+      "description": "A luxurious desert villa nestled in the foothills of the McDowell Mountains, offering privacy and stunning desert views.",
+      "key_features": ["Resort-style pool and spa", "Outdoor kitchen and dining area", "Fire pit"],
+      "amenities": ["Golf course access", "Tennis courts", "Fitness center"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/3e15f36d-110e-417b-8c4b-c9a506e6feb1.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1004412361236810343/original/3385ccfc-93f8-4021-ba8f-9aebe1443cea.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1004412361236810343/original/4803322f-55b4-478f-a98c-c285345121fb.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1004412361236810343/original/7ae0d6c1-a350-47ed-8a78-6e9723be9ac2.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 11,
+      "price": 480000,
+      "villa_name": "Seaside Sanctuary",
+      "villa_location": "Amalfi Coast, Italy",
+      "tag_line": "Experience coastal luxury on the Amalfi Coast",
+      "type_of_house": "Villa",
+      "num_bedrooms": 3,
+      "num_bathrooms": 3,
+      "area": 4000,
+      "description": "A luxurious villa perched on the cliffs of the Amalfi Coast, offering breathtaking views of the Mediterranean Sea.",
+      "key_features": ["Private terrace with sea views", "Infinity pool", "Italian marble floors"],
+      "amenities": ["Private beach access", "Gourmet restaurant", "Spa"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-653457751147342962/original/dd8bb769-d004-48eb-a96d-5e46a18580e6.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-653457751147342962/original/98eda2c7-3b6a-4e47-9d4b-9e9e9d9da651.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-653457751147342962/original/dbf04155-bc68-461b-b446-81dd354ef9d4.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/9b710fc0-2efa-4001-bf53-2583311a5df6.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 12,
+      "price": 720000,
+      "villa_name": "Mountain View Manor",
+      "villa_location": "Telluride, Colorado",
+      "tag_line": "Enjoy luxury living with panoramic mountain views",
+      "type_of_house": "Mansion",
+      "num_bedrooms": 6,
+      "num_bathrooms": 7,
+      "area": 8000,
+      "description": "A grand mountain estate offering unmatched luxury and stunning views of the San Juan Mountains.",
+      "key_features": ["Floor-to-ceiling windows", "Outdoor living area with fireplace", "Wine cellar"],
+      "amenities": ["Ski-in/ski-out access", "Home theater", "Sauna"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-750128483855579222/original/5345b08b-ddd4-41cb-8d6c-304385c7fa16.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-750128483855579222/original/5345b08b-ddd4-41cb-8d6c-304385c7fa16.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-750128483855579222/original/05b36f39-8c2f-404f-9bac-fd50dd5425a7.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-750128483855579222/original/df411791-904d-4c8a-8dc9-4e91394d95c2.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 13,
+      "price": 610000,
+      "villa_name": "Pacific Paradise Retreat",
+      "villa_location": "Kauai, Hawaii",
+      "tag_line": "Discover paradise on the Garden Isle",
+      "type_of_house": "Villa",
+      "num_bedrooms": 4,
+      "num_bathrooms": 4,
+      "area": 5500,
+      "description": "A luxurious villa nestled among tropical gardens on the island of Kauai, offering privacy and stunning ocean views.",
+      "key_features": ["Private pool surrounded by palm trees", "Outdoor shower", "Gourmet kitchen"],
+      "amenities": ["Tennis courts", "Fitness center", "Concierge services"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-38127487/original/41b1a9f6-f7e0-41c3-bda5-482792889a5e.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-38127487/original/d124341a-2001-43a1-bfc4-8d9e72495d10.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-38127487/original/3bd54c88-91db-4a5c-8597-858bcacd9716.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-38127487/original/6242bdfe-05c3-4819-bfb1-82aed7bfe462.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 14,
+      "price": 540000,
+      "villa_name": "Lakefront Luxury Villa",
+      "villa_location": "Lake Tahoe, California",
+      "tag_line": "Experience luxury living on the shores of Lake Tahoe",
+      "type_of_house": "Villa",
+      "num_bedrooms": 3,
+      "num_bathrooms": 4,
+      "area": 4500,
+      "description": "A stunning villa with panoramic views of Lake Tahoe, offering luxurious amenities and modern comforts.",
+      "key_features": ["Private beach access", "Infinity pool", "Outdoor living area with fireplace"],
+      "amenities": ["Boat dock", "Fitness center", "Game room"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/1073a74c-27f3-4250-9a41-a19dadfdc900.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/c6f07483-015d-4792-bd47-4d5be29f632a.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/18f6240c-8134-41e0-8489-bd8f23724a18.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/0f629131-bf9c-4033-8a7a-6777a0d2f813.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 15,
+      "price": 750000,
+      "villa_name": "Coastal Dream Villa",
+      "villa_location": "Maui, Hawaii",
+      "tag_line": "Live the ultimate island lifestyle",
+      "type_of_house": "Villa",
+      "num_bedrooms": 5,
+      "num_bathrooms": 5,
+      "area": 6000,
+      "description": "An exquisite villa nestled along the coast of Maui, offering breathtaking ocean views and luxurious amenities.",
+      "key_features": ["Private beachfront location", "Infinity pool", "Outdoor kitchen and dining area"],
+      "amenities": ["Spa", "Fitness center", "Concierge services"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-22045753/original/94056495-b028-426d-8622-b68e8457f5fb.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-22045753/original/4fe4c564-df96-440d-8f69-d2660bbc7ee4.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-22045753/original/788de744-b757-4ff6-ab61-b240cdf81500.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-22045753/original/49c5d52d-7e7a-4d1d-9813-c1b323f56d4f.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 16,
+      "price": 680000,
+      "villa_name": "Majestic Mountain Lodge",
+      "villa_location": "Banff, Alberta, Canada",
+      "tag_line": "Experience luxury in the heart of the Canadian Rockies",
+      "type_of_house": "Lodge",
+      "num_bedrooms": 6,
+      "num_bathrooms": 6,
+      "area": 7000,
+      "description": "A majestic mountain lodge nestled in the heart of Banff National Park, offering unparalleled luxury and stunning views.",
+      "key_features": ["Vaulted ceilings with exposed beams", "Stone fireplace", "Wraparound deck with hot tub"],
+      "amenities": ["Ski-in/ski-out access", "Gourmet restaurant", "Spa"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-586235236372436768/original/2ff2aa14-b301-4c60-9eb7-2a2b1410553d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-586235236372436768/original/f12fcbac-2146-4a2b-abe8-f19cab449d41.png?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-51492266/original/1cd4c3f5-7567-4aa1-a79c-c677dc619961.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-51492266/original/4450c4d6-283e-4349-b216-d18bc7d3b5a7.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 17,
+      "price": 520000,
+      "villa_name": "Riverside Retreat",
+      "villa_location": "Aspen, Colorado",
+      "tag_line": "Escape to luxury along the banks of the Roaring Fork River",
+      "type_of_house": "Cabin",
+      "num_bedrooms": 4,
+      "num_bathrooms": 3,
+      "area": 4000,
+      "description": "A charming cabin retreat nestled among the trees along the banks of the Roaring Fork River, offering peace and tranquility.",
+      "key_features": ["Riverfront location", "Wraparound deck with river views", "Stone fireplace"],
+      "amenities": ["Fishing access", "Hiking trails", "Fire pit"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/fefd2e9e-f1bd-417a-bcab-8b0e6d8412d5.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/95f1d739-3b89-47da-9312-4aaa0288c635.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/4020bd1e-1f7e-411a-a257-409192a80407.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-43732601/original/43ac6ed7-6010-4117-857a-0fd2406c04b6.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 18,
+      "price": 620000,
+      "villa_name": "Luxury Lakeside Estate",
+      "villa_location": "Lake Como, Italy",
+      "tag_line": "Experience timeless elegance on the shores of Lake Como",
+      "type_of_house": "Estate",
+      "num_bedrooms": 5,
+      "num_bathrooms": 6,
+      "area": 7000,
+      "description": "A luxurious estate offering unparalleled elegance and sophistication, with sweeping views of Lake Como.",
+      "key_features": ["Private boat dock", "Lakeside terrace with infinity pool", "Gourmet kitchen"],
+      "amenities": ["Wine cellar", "Gym", "Guest house"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-667570740093314639/original/49b9fe42-f683-41a0-9a50-d83a833ec403.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-667570740093314639/original/7e2ab4d0-f082-4c84-ba11-76dc30856ae8.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-667570740093314639/original/6fb69801-1555-4a34-9bf8-6ae64f3a655b.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-667570740093314639/original/24be79a6-d8a0-4a81-a439-bc26fa825639.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 19,
+      "price": 570000,
+      "villa_name": "Tropical Hideaway",
+      "villa_location": "Bora Bora, French Polynesia",
+      "tag_line": "Escape to paradise in the South Pacific",
+      "type_of_house": "Villa",
+      "num_bedrooms": 3,
+      "num_bathrooms": 3,
+      "area": 3500,
+      "description": "A luxurious villa nestled among palm trees on the island of Bora Bora, offering privacy and stunning lagoon views.",
+      "key_features": ["Private overwater bungalow", "Infinity pool overlooking the lagoon", "Outdoor shower"],
+      "amenities": ["Snorkeling gear", "Paddleboards", "Personal chef upon request"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/81947813/8014ca6b_original.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/d30944b6-86dc-4dd2-8470-46112abf3d40.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1aec235e-4f33-4b0b-9447-d459c476a539.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/cadc3b25-1df0-4ce4-ac54-cb4be68f7ea7.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 20,
+      "price": 690000,
+      "villa_name": "Mountain Retreat",
+      "villa_location": "Whistler, British Columbia, Canada",
+      "tag_line": "Experience luxury living in the heart of the Coast Mountains",
+      "type_of_house": "Chalet",
+      "num_bedrooms": 4,
+      "num_bathrooms": 4,
+      "area": 5000,
+      "description": "A luxurious chalet nestled in the heart of Whistler Village, offering ski-in/ski-out access and stunning mountain views.",
+      "key_features": ["Ski-in/ski-out access", "Hot tub with mountain views", "Stone fireplace"],
+      "amenities": ["Sauna", "Game room", "Concierge services"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/1530b810-0caf-41e2-a9de-85ed435c8b09.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/8a80645e-ffa0-41ea-b091-fe7382f6d1fb.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/63e4d2b2-d3d5-4c77-8f1a-082ecfdffbd7.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/6b699f28-44d6-48dc-a695-4da32a432136.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 21,
+      "price": 530000,
+      "villa_name": "Sunny Seaside Villa",
+      "villa_location": "Cannes, France",
+      "tag_line": "Bask in the Mediterranean sunshine in style",
+      "type_of_house": "Villa",
+      "num_bedrooms": 3,
+      "num_bathrooms": 3,
+      "area": 4000,
+      "description": "A luxurious villa overlooking the sparkling waters of the Mediterranean, offering elegant living spaces and modern amenities.",
+      "key_features": ["Private terrace with sea views", "Infinity pool", "Gourmet kitchen"],
+      "amenities": ["Private beach access", "Tennis court", "Fitness center"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-649092230980702958/original/6482bda5-c255-4be8-a323-260d6822a4a3.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-649092230980702958/original/2d1f2d6c-2760-4a75-b589-45138afb5178.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-649092230980702958/original/8f34004e-b226-4e18-b462-48cba81348ac.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-649092230980702958/original/319136b8-5a75-4e9f-99e6-4641b844e17c.jpeg?im_w=1200"
+      ]
+    },
+    {
+      "id": 22,
+      "price": 780000,
+      "villa_name": "Secluded Mountain Hideaway",
+      "villa_location": "Lake Tahoe, Nevada",
+      "tag_line": "Escape to luxury in the Sierra Nevada Mountains",
+      "type_of_house": "Cabin",
+      "num_bedrooms": 5,
+      "num_bathrooms": 4,
+      "area": 5500,
+      "description": "A secluded cabin retreat nestled among the pine trees of the Sierra Nevada Mountains, offering privacy and stunning views.",
+      "key_features": ["Wraparound deck with mountain views", "Stone fireplace", "Outdoor hot tub"],
+      "amenities": ["Hiking trails", "Fishing pond", "Fire pit"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46638142/original/49e877c4-4291-4af4-9c61-ab8eab97ba29.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46638142/original/87718603-1c6f-4960-b5aa-8fe7ebcdb754.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46638142/original/29049f92-ffe0-420f-aae6-85d4bbf3a670.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46638142/original/42115640-2ab4-402a-9c8c-c04f931ffb9f.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 23,
+      "price": 600000,
+      "villa_name": "Luxury Lakeside Villa",
+      "villa_location": "Lake Geneva, Switzerland",
+      "tag_line": "Experience lakeside luxury in the Swiss Alps",
+      "type_of_house": "Villa",
+      "num_bedrooms": 4,
+      "num_bathrooms": 4,
+      "area": 5000,
+      "description": "A luxurious villa nestled along the shores of Lake Geneva, offering breathtaking views of the Swiss Alps.",
+      "key_features": ["Private beach and pier", "Infinity pool", "Outdoor living area with fireplace"],
+      "amenities": ["Boat dock", "Fitness center", "Game room"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-817936696370974344/original/40e30b9b-435c-48a4-b949-9e7fbe5f16ea.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-817936696370974344/original/1f3fbd2b-5163-4519-994b-b649f74e9513.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-817936696370974344/original/e88c8e18-5ffd-4514-a937-f570ec260e55.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-817936696370974344/original/4778637c-2dee-40a0-85c4-1f7c33773586.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 24,
+      "price": 560000,
+      "villa_name": "Tranquil Lakeside Retreat",
+      "villa_location": "Lake Tahoe, California",
+      "tag_line": "Find peace and serenity along the shores of Lake Tahoe",
+      "type_of_house": "Cottage",
+      "num_bedrooms": 3,
+      "num_bathrooms": 2,
+      "area": 3500,
+      "description": "A charming lakeside cottage nestled among the pines of Lake Tahoe, offering stunning views and tranquility.",
+      "key_features": ["Private beach access", "Wraparound porch with lake views", "Cozy fireplace"],
+      "amenities": ["Kayaks", "Hiking trails", "Picnic area"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-53673832/original/844e7daf-4539-436a-a103-9a72f26a2fa7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-53673832/original/3b6a94bb-01cf-4b81-b716-f2bd79c86b1d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-53673832/original/379ce045-c615-40c5-986f-f2fb46815811.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/aeb1b871-2545-46fd-9d57-0a8a45f47a50.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 25,
+      "price": 740000,
+      "villa_name": "Tropical Paradise Retreat",
+      "villa_location": "Maui, Hawaii",
+      "tag_line": "Escape to paradise in luxury",
+      "type_of_house": "Villa",
+      "num_bedrooms": 5,
+      "num_bathrooms": 5,
+      "area": 6000,
+      "description": "An exquisite villa nestled among tropical gardens on the island of Maui, offering privacy and stunning ocean views.",
+      "key_features": ["Private pool surrounded by palm trees", "Outdoor shower", "Gourmet kitchen"],
+      "amenities": ["Tennis courts", "Fitness center", "Concierge services"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-955940142963753341/original/b5b1734b-dee4-4abd-b7d2-b62564b75bab.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-955940142963753341/original/fd553613-4939-4a82-a4f1-127e23514771.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-955940142963753341/original/f8bfd0cb-5342-42cc-8355-54c887a00f5e.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/9d8ddbf9-4652-46f0-9485-e94abebed7d7.jpg?im_w=1200"
+      ]
+    },
+    {
+      "id": 26,
+      "price": 690000,
+      "villa_name": "Mountain View Manor",
+      "villa_location": "Telluride, Colorado",
+      "tag_line": "Enjoy luxury living with panoramic mountain views",
+      "type_of_house": "Mansion",
+      "num_bedrooms": 6,
+      "num_bathrooms": 7,
+      "area": 8000,
+      "description": "A grand mountain estate offering unmatched luxury and stunning views of the San Juan Mountains.",
+      "key_features": ["Floor-to-ceiling windows", "Outdoor living area with fireplace", "Wine cellar"],
+      "amenities": ["Ski-in/ski-out access", "Home theater", "Sauna"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-737360691663391009/original/0fd64af4-920d-4d75-97ff-df46818671ff.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-737360691663391009/original/a2a5b81d-93ef-46da-ba83-a71aaccbfbaf.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-737360691663391009/original/6f529034-a78a-47c9-b853-1359035525ef.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-737360691663391009/original/7f86e36c-984c-4062-94f5-24fd3458c3d5.jpeg?im_w=1200"
+      ]
+    },
+    {
+      "id": 27,
+      "price": 620000,
+      "villa_name": "Pacific Paradise Retreat",
+      "villa_location": "Kauai, Hawaii",
+      "tag_line": "Discover paradise on the Garden Isle",
+      "type_of_house": "Villa",
+      "num_bedrooms": 4,
+      "num_bathrooms": 4,
+      "area": 5500,
+      "description": "A luxurious villa nestled among tropical gardens on the island of Kauai, offering privacy and stunning ocean views.",
+      "key_features": ["Private pool surrounded by palm trees", "Outdoor shower", "Gourmet kitchen"],
+      "amenities": ["Tennis courts", "Fitness center", "Concierge services"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/355ff8fd-823e-4886-bf55-da7150164421.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/65e4a457-d4f1-48d1-9cf6-aeb426d65a00.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/2c72ece4-f693-4fe6-b21f-24b773be1452.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/5a2cdd23-b17f-4ac2-bb69-38da95fc3bc6.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 28,
+      "price": 540000,
+      "villa_name": "Lakefront Luxury Villa",
+      "villa_location": "Lake Tahoe, California",
+      "tag_line": "Experience luxury living on the shores of Lake Tahoe",
+      "type_of_house": "Villa",
+      "num_bedrooms": 3,
+      "num_bathrooms": 4,
+      "area": 4500,
+      "description": "A stunning villa with panoramic views of Lake Tahoe, offering luxurious amenities and modern comforts.",
+      "key_features": ["Private beach access", "Infinity pool", "Outdoor living area with fireplace"],
+      "amenities": ["Boat dock", "Fitness center", "Game room"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/48333c7b-3959-4822-b643-11053a481e91.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-558147891784942135/original/59de44bb-33b4-4fd6-af20-50df234d9377.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-558147891784942135/original/756e89f6-4ca0-4d7c-95e2-8e9de03ea2b1.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-558147891784942135/original/79c04b63-bfd4-4b8a-b330-f4a17566d9f6.jpeg?im_w=1200"
+      ]
+    },
+    {
+      "id": 29,
+      "price": 750000,
+      "villa_name": "Coastal Dream Villa",
+      "villa_location": "Maui, Hawaii",
+      "tag_line": "Live the ultimate island lifestyle",
+      "type_of_house": "Villa",
+      "num_bedrooms": 5,
+      "num_bathrooms": 5,
+      "area": 6000,
+      "description": "An exquisite villa nestled along the coast of Maui, offering breathtaking ocean views and luxurious amenities.",
+      "key_features": ["Private beachfront location", "Infinity pool", "Outdoor kitchen and dining area"],
+      "amenities": ["Spa", "Fitness center", "Concierge services"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/6a940d72-7432-4795-9f11-df1015e8e86a.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/11bbdfff-bdc0-43b0-bbf0-1c96c9d2f614.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f06c1486-7a99-4305-807f-febd73a0282b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/b6dc88f7-a13c-41b0-89c9-2477778a4618.jpg?im_w=1200"
+      ]
+    },
+    {
+      "id": 30,
+      "price": 680000,
+      "villa_name": "Majestic Mountain Lodge",
+      "villa_location": "Banff, Alberta, Canada",
+      "tag_line": "Experience luxury in the heart of the Canadian Rockies",
+      "type_of_house": "Lodge",
+      "num_bedrooms": 6,
+      "num_bathrooms": 6,
+      "area": 7000,
+      "description": "A majestic mountain lodge nestled in the heart of Banff National Park, offering unparalleled luxury and stunning views.",
+      "key_features": ["Vaulted ceilings with exposed beams", "Stone fireplace", "Wraparound deck with hot tub"],
+      "amenities": ["Ski-in/ski-out access", "Gourmet restaurant", "Spa"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1011088517779366563/original/676068a1-0bea-4470-aebd-a40cf09a93ae.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1011088517779366563/original/799323d7-5dca-4da6-81d9-86613e51b234.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1011088517779366563/original/ec0f2a00-8dd2-495a-9873-248b80d99b34.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1011088517779366563/original/570917f0-1059-4a3b-967c-b1c361e94b22.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 31,
+      "price": 520000,
+      "villa_name": "Riverside Retreat",
+      "villa_location": "Aspen, Colorado",
+      "tag_line": "Escape to luxury along the banks of the Roaring Fork River",
+      "type_of_house": "Cabin",
+      "num_bedrooms": 4,
+      "num_bathrooms": 3,
+      "area": 4000,
+      "description": "A charming cabin retreat nestled among the trees along the banks of the Roaring Fork River, offering peace and tranquility.",
+      "key_features": ["Riverfront location", "Wraparound deck with river views", "Stone fireplace"],
+      "amenities": ["Fishing access", "Hiking trails", "Fire pit"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45101763/original/1054871f-eacc-4ef7-8e9d-e2cd99ddd380.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/c209d83a-45ff-454a-9da5-4f27c3d2ce98.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45101763/original/18c91eaf-518f-46d4-ac7b-38ccf3faeffc.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/6888119b-e611-4b12-9f58-c5e0851a216e.jpg?im_w=1200"
+      ]
+    },
+    {
+      "id": 32,
+      "price": 620000,
+      "villa_name": "Luxury Lakeside Estate",
+      "villa_location": "Lake Como, Italy",
+      "tag_line": "Experience timeless elegance on the shores of Lake Como",
+      "type_of_house": "Estate",
+      "num_bedrooms": 5,
+      "num_bathrooms": 6,
+      "area": 7000,
+      "description": "A luxurious estate offering unparalleled elegance and sophistication, with sweeping views of Lake Como.",
+      "key_features": ["Private boat dock", "Lakeside terrace with infinity pool", "Gourmet kitchen"],
+      "amenities": ["Wine cellar", "Gym", "Guest house"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/a9426723-ea68-4b4a-979f-89950b660bac.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/7b0bacb6-be44-4966-b9e2-61b07ae3a7ac.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/ba77fe71-b79a-4a5b-8b48-00238b0b0063.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/55da37f0-6c0f-45ae-97c9-adc1ff8c3f52.jpg?im_w=1200"
+      ]
+    },
+    {
+      "id": 33,
+      "price": 570000,
+      "villa_name": "Tropical Hideaway",
+      "villa_location": "Bora Bora, French Polynesia",
+      "tag_line": "Escape to paradise in the South Pacific",
+      "type_of_house": "Villa",
+      "num_bedrooms": 3,
+      "num_bathrooms": 3,
+      "area": 3500,
+      "description": "A luxurious villa nestled among palm trees on the island of Bora Bora, offering privacy and stunning lagoon views.",
+      "key_features": ["Private overwater bungalow", "Infinity pool overlooking the lagoon", "Outdoor shower"],
+      "amenities": ["Snorkeling gear", "Paddleboards", "Personal chef upon request"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/302c73e7-597b-425f-a623-de80159ec210.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/1fc9a4e4-41a9-4e33-84b1-b4188c837a6e.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/e1b32b6d-601d-4f03-9efc-dd8aa2c75ba3.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/06575e29-da53-4dbf-9e35-2813c1d78245.jpg?im_w=1200"
+      ]
+    },
+    {
+      "id": 34,
+      "price": 690000,
+      "villa_name": "Mountain Retreat",
+      "villa_location": "Whistler, British Columbia, Canada",
+      "tag_line": "Experience luxury living in the heart of the Coast Mountains",
+      "type_of_house": "Chalet",
+      "num_bedrooms": 4,
+      "num_bathrooms": 4,
+      "area": 5000,
+      "description": "A luxurious chalet nestled in the heart of Whistler Village, offering ski-in/ski-out access and stunning mountain views.",
+      "key_features": ["Ski-in/ski-out access", "Hot tub with mountain views", "Stone fireplace"],
+      "amenities": ["Sauna", "Game room", "Concierge services"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-22646087/original/48d9aa94-11b1-409b-bcdb-3d0d7d13d78b.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/a13cc201-91d6-4fbb-81d5-a1022c9171ff.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-22646087/original/f82d2430-beb3-4966-8f5b-4527b607635f.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-22646087/original/1dad18e6-c4dd-4ef3-83d0-a52acf77c932.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 35,
+      "price": 530000,
+      "villa_name": "Sunny Seaside Villa",
+      "villa_location": "Cannes, France",
+      "tag_line": "Bask in the Mediterranean sunshine in style",
+      "type_of_house": "Villa",
+      "num_bedrooms": 3,
+      "num_bathrooms": 3,
+      "area": 4000,
+      "description": "A luxurious villa overlooking the sparkling waters of the Mediterranean, offering elegant living spaces and modern amenities.",
+      "key_features": ["Private terrace with sea views", "Infinity pool", "Gourmet kitchen"],
+      "amenities": ["Private beach access", "Tennis court", "Fitness center"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/babda84e-4dce-42cd-a39a-4624ab6a2fbd.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/57e4530a-ee89-40a8-9fcd-601b9f841f03.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/f269cc27-911c-4a73-9261-e9c3e865bf9d.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/823fa89a-17f5-443a-bbc8-a12f4f09ef97.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 36,
+      "price": 780000,
+      "villa_name": "Secluded Mountain Hideaway",
+      "villa_location": "Lake Tahoe, Nevada",
+      "tag_line": "Escape to luxury in the Sierra Nevada Mountains",
+      "type_of_house": "Cabin",
+      "num_bedrooms": 5,
+      "num_bathrooms": 4,
+      "area": 5500,
+      "description": "A secluded cabin retreat nestled among the pine trees of the Sierra Nevada Mountains, offering privacy and stunning views.",
+      "key_features": ["Wraparound deck with mountain views", "Stone fireplace", "Outdoor hot tub"],
+      "amenities": ["Hiking trails", "Fishing pond", "Fire pit"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45466983/original/cc8fba91-3866-4673-8246-d2bd8330adc3.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45466983/original/6ea2e2c8-2124-4b74-b978-b6e42c09fa46.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45466983/original/813862f9-3015-4e2e-aff2-bfc1cb1f66b8.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45466983/original/79c21630-8520-4558-b3c0-5f61b9ad6755.jpeg?im_w=1200"
+      ]
+    },
+    {
+      "id": 37,
+      "price": 600000,
+      "villa_name": "Luxury Lakeside Villa",
+      "villa_location": "Lake Geneva, Switzerland",
+      "tag_line": "Experience lakeside luxury in the Swiss Alps",
+      "type_of_house": "Villa",
+      "num_bedrooms": 4,
+      "num_bathrooms": 4,
+      "area": 5000,
+      "description": "A luxurious villa nestled along the shores of Lake Geneva, offering breathtaking views of the Swiss Alps.",
+      "key_features": ["Private beach and pier", "Infinity pool", "Outdoor living area with fireplace"],
+      "amenities": ["Boat dock", "Fitness center", "Game room"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/7b18c47e-2364-47d2-82a1-b1ffbc11ef7b.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/f4967942-df05-4952-920a-1fd91320e233.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/c6606ceb-b566-4111-82e8-2da11fd5a20f.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/5011c90e-63d8-410c-af23-13e810232aee.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 38,
+      "price": 560000,
+      "villa_name": "Tranquil Lakeside Retreat",
+      "villa_location": "Lake Tahoe, California",
+      "tag_line": "Find peace and serenity along the shores of Lake Tahoe",
+      "type_of_house": "Cottage",
+      "num_bedrooms": 3,
+      "num_bathrooms": 2,
+      "area": 3500,
+      "description": "A charming lakeside cottage nestled among the pines of Lake Tahoe, offering stunning views and tranquility.",
+      "key_features": ["Private beach access", "Wraparound porch with lake views", "Cozy fireplace"],
+      "amenities": ["Kayaks", "Hiking trails", "Picnic area"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1028534835570239941/original/10f7e65a-59eb-4730-af65-c14219890295.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1028534835570239941/original/b50268b0-4494-40fb-8e7e-890a55f85040.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1028534835570239941/original/570e91d8-f93c-41f9-866e-3d8c65ab4a72.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTAyODUzNDgzNTU3MDIzOTk0MQ%3D%3D/original/6c70a75e-c9f5-44c0-83cb-330fe96ec20e.jpeg?im_w=1200"
+      ]
+    },
+    {
+      "id": 39,
+      "price": 740000,
+      "villa_name": "Tropical Paradise Retreat",
+      "villa_location": "Maui, Hawaii",
+      "tag_line": "Escape to paradise in luxury",
+      "type_of_house": "Villa",
+      "num_bedrooms": 5,
+      "num_bathrooms": 5,
+      "area": 6000,
+      "description": "An exquisite villa nestled among tropical gardens on the island of Maui, offering privacy and stunning ocean views.",
+      "key_features": ["Private pool surrounded by palm trees", "Outdoor shower", "Gourmet kitchen"],
+      "amenities": ["Tennis courts", "Fitness center", "Concierge services"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-837897343900087977/original/5ba6a297-91bd-4288-8af1-83cc7a0f579b.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-837897343900087977/original/5efa8767-029a-4751-b761-198416474dce.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-837897343900087977/original/4e8d3928-5c93-4d27-af8f-7da68f121ced.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-837897343900087977/original/94a616b7-3b5c-4582-8d59-ff8e66ff2861.jpeg?im_w=1200"
+      ]
+    },
+    {
+      "id": 40,
+      "price": 690000,
+      "villa_name": "Mountain View Manor",
+      "villa_location": "Telluride, Colorado",
+      "tag_line": "Enjoy luxury living with panoramic mountain views",
+      "type_of_house": "Mansion",
+      "num_bedrooms": 6,
+      "num_bathrooms": 7,
+      "area": 8000,
+      "description": "A grand mountain estate offering unmatched luxury and stunning views of the San Juan Mountains.",
+      "key_features": ["Floor-to-ceiling windows", "Outdoor living area with fireplace", "Wine cellar"],
+      "amenities": ["Ski-in/ski-out access", "Home theater", "Sauna"],
+      "images":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-609648575756487294/original/520a5832-f4d9-4069-a2ff-57dcedc5fbc8.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-609648575756487294/original/45d495ef-ad5c-40fe-b8bf-e256aacb6c64.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-609648575756487294/original/c00feed7-0b91-425c-a68c-544291f50998.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-609648575756487294/original/8e83b323-12e7-47db-b160-b6f826e78eb6.jpeg?im_w=1200"
+      ]
+    }
+  ]
+  

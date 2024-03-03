@@ -79,9 +79,6 @@ export default async function Home() {
           <h1 className="text-[1.8rem] lg:text-[3rem] font-semibold">What Our Clients Say</h1>
           <p className="text-[#999999]">Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.</p>
         </div>
-        <div className="max-md:hidden">
-          <button className="bg-[#1A1A1A] rounded-lg p-4">View Testimonials</button>
-        </div>
       </div>
     </main>
   );

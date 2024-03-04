@@ -2,7 +2,7 @@ import Image from "next/image"
 function Card({prop}) {
   return (
     <div>
-    <div className="bg-[#141414] max-sm:h-[400px] lg:w-[25vw] md:w-[50vw] flex-col p-4 max-sm:w-[90vw] md:h-[460px] sm:h-[469px]  max-md:min-h-[500px] py-[0.75rem] rounded-lg my-4 px-[0.75rem]">
+    <div className="bg-[#141414] max-sm:h-[320px] lg:w-[25vw] md:w-[50vw] flex-col p-4 max-sm:w-[90vw] md:h-[460px] sm:h-[380px]  max-md:min-h-[500px] py-[0.75rem] rounded-lg my-4 px-[0.75rem]">
                 <div className="mx-auto relative max-sm:h-[60%] max-lg:h-[50%] h-[70%] w-[100%]">
                   <Image className="rounded-lg" alt="property image" fill src={prop?.images[0]}/>
                 </div>
@@ -17,7 +17,7 @@ function Card({prop}) {
                       <h3 className="text-[1.2rem]">${prop.price}</h3>
                     </div>
                     <div className="">
-                      <button className="bg-[#703BF7] max-sm:p-1 p-4 rounded-lg">View Property</button>
+                      <button className="bg-[#703BF7] max-sm:p-2 p-4 rounded-lg">View Property</button>
                     </div>
                   </div>
                 </div>

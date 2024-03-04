@@ -7,6 +7,7 @@ import star from '@/public/star.png'
 import sun from '@/public/sun-icon.png'
 import building from '@/public/building-icon.png'
 import Carousel from "./components/Carousel";
+import Review from "./components/Review";
 export default async function Home() {
   return (
     <main className="min-h-screen w-full">
@@ -32,11 +33,11 @@ export default async function Home() {
             </div>
             <div className="flex items-center py-4 bg-[#262626] rounded-lg justify-center flex-col">
               <h3 className="text-[1.25rem] font-semibold">10k+</h3>
-              <p className="text-slate-400">Properties for clients</p>
+              <p className="text-slate-400 text-center">Properties for clients</p>
             </div>
             <div className="max-lg:col-span-2 py-2 flex items-center bg-[#262626] rounded-lg justify-center flex-col">
               <h3 className="text-[1.25rem] font-semibold">13+</h3>
-              <p className="text-slate-400">years of experience</p>
+              <p className="text-slate-400 text-center">years of experience</p>
             </div>
           </div>
 
@@ -74,10 +75,24 @@ export default async function Home() {
         </div>
         <Carousel />
       </div>
-      <div className="mx-[1rem] flex items-center justify-between mt-[3.7rem] lg:mx-[5vw]">
-        <div className="md:w-[65%] flex flex-col mb-3">
-          <h1 className="text-[1.8rem] lg:text-[3rem] font-semibold">What Our Clients Say</h1>
-          <p className="text-[#999999]">Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.</p>
+      <div className="overflow-y-hidden mx-[1rem] mt-[3.7rem] lg:mx-[5vw]">
+        <div className="flex items-center justify-between">
+          <div className="flex flex-col md:w-[65%]">
+            <h1 className="text-[1.8rem] lg:text-[3rem] font-semibold">What Our Clients Say</h1>
+            <p className="text-[#999999]">Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.</p>
+          </div>
+        </div>
+        <Review />
+      </div>
+      <div className="overflow-y-hidden mx-[1rem] mb-[3.7rem] mt-[3.7rem] lg:mx-[5vw]">
+        <div className="flex items-center max-sm:flex-col justify-between">
+          <div className="flex flex-col md:w-[65%]">
+            <h1 className="text-[1.8rem] lg:text-[3rem] font-semibold">Start Your Real Estate Journey Today</h1>
+            <p className="text-[#999999]">Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.</p>
+          </div>
+          <div className="max-lg:mt-[1rem] lg:my-[2rem] bottom-[3rem] flex max-md:flex-col gap-3">
+          <button className="max-md:w-full max-sm:w-[95vh] rounded-lg py-3 lg:px-3 bg-[#703BF7]">Browse properties</button>
+          </div>
         </div>
       </div>
     </main>

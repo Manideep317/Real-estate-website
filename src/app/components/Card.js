@@ -17,7 +17,7 @@ function Card({prop}) {
                       <h3 className="text-[1.2rem]">${prop.price}</h3>
                     </div>
                     <div className="">
-                      <button className="bg-[#703BF7] max-sm:p-2 p-4 rounded-lg">View Property</button>
+                      <button className="bg-[#703BF7] max-sm:p-2 p-4 rounded">View Property</button>
                     </div>
                   </div>
                 </div>

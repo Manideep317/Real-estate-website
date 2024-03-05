@@ -10,8 +10,8 @@ export default async function Review() {
     <div>
     <div className="flex overflow-y-hidden gap-[2rem] overflow-scroll">
           {
-            data.map((prop) => (
-                <RCard prop={prop}/>
+            data.map((prop,index) => (
+                <RCard prop={prop} key={index}/>
             ))
           }
         </div>    

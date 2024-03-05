@@ -8,11 +8,11 @@ function RCard({prop}) {
                 <div className="mt-[0.5rem]">
                   
                   <div className="">
-                    <h3 className="font-medium text-lg">"{prop.review_title}"</h3>
+                    <h3 className="font-medium text-lg">{prop.review_title}</h3>
                     <p className="text-md text-[#999999]">{prop.review_subject}</p>
                   </div>
                   <div className="flex my-2 items-center mt-[1rem]">
-                    <Image height={50} width={50} className='w-[40px] h-[40px] flex items-center justify-center rounded-full' src={prop.image}/>
+                    <Image height={50} width={50} alt="" className='w-[40px] h-[40px] flex items-center justify-center rounded-full' src={prop.image}/>
                     <div className="mx-[0.5rem]">
                       <h3 className="text-[1.2rem]">{prop.name}</h3>
                       <p className="text-[#99999999]">{prop.place},{prop.country}</p>
@@ -24,4 +24,4 @@ function RCard({prop}) {
   )
 }
 
-export default RCard
+export default RCard;

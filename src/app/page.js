@@ -1,11 +1,11 @@
 import Image from "next/image";
-import homeImg from '@/public/homeImg.png'
 import stamp from '@/public/home-stamp.png'
 import hIcon from '@/public/home-icon.png'
 import cash from '@/public/cash-icon.png'
 import star from '@/public/star.png'
 import sun from '@/public/sun-icon.png'
 import building from '@/public/building-icon.png'
+import home from '@/public/building.png'
 import Carousel from "./components/Carousel";
 import Review from "./components/Review";
 export default async function Home() {
@@ -14,7 +14,7 @@ export default async function Home() {
       <div className="lg:flex lg:flex-row-reverse pt-[3.7rem] w-full">
 
         <div className="flex flex-col lg:w-[50%] lg:h-[80vh] items-center relative">
-          <Image src={homeImg} alt="building img" className="max-md:w-[90%] max-lg:w-[80%] max-lg:mt-[1rem] lg:h-[100%] lg:w-[100%] max-lg:rounded-lg" />
+          <Image src={home} alt="building img" className="max-md:w-[90%] max-lg:w-[80%] max-lg:mt-[1rem] lg:h-[100%] lg:w-[100%] max-lg:rounded-lg" />
           <Image src={stamp} alt="stamp image" className="z-10 max-md:max-w-[30%] lg:-translate-x-[23vw] lg:translate-y-1/3 max-md:relative absolute max-md:right-[30%] max-md:bottom-[4rem]" />
         </div>
         <div className="mx-[1rem] lg:mx-[5vw] lg:my-auto flex flex-col justify-center lg:w-[50%]">
@@ -47,19 +47,19 @@ export default async function Home() {
       <div className="mx-2 mt-[0.25rem] border-4 border-[#141414] border-opacity-45 grid max-lg:grid-cols-2 lg:grid-cols-4 rounded-lg">
         <div className="py-[1rem] bg-[#242424] flex flex-col justify-center items-center border-2 border-opacity-50 border-[#343434] rounded-lg m-[0.25rem]">
           <Image alt="home icon" src={hIcon}></Image>
-          <p className="text-center pt-2 text-[1.05rem]">Find your Dream Home</p>
+          <p className="text-center pt-2 px-2 text-[1.05rem]">Find your Dream Home</p>
         </div>
         <div className="py-[1rem] flex flex-col justify-center items-center border-2 bg-[#242424] border-opacity-50 border-[#343434] rounded-lg m-[0.25rem]">
           <Image alt="cash icon" src={cash}></Image>
-          <p className="text-center pt-2 text-[1.05rem]">Unlock your property Value</p>
+          <p className="text-center px-2 pt-2 text-[1.05rem]">Unlock your property Value</p>
         </div>
         <div className="py-[1rem] border-2 flex flex-col justify-center items-center bg-[#242424] border-opacity-50 border-[#343434] rounded-lg m-[0.25rem]">
           <Image alt="buiding icon" src={building}></Image>
-          <p className="text-center pt-2 text-[1.05rem]">Effortless Property Management</p>
+          <p className="text-center px-2 pt-2 text-[1.05rem]">Effortless Property Management</p>
         </div>
         <div className="py-[1rem] flex flex-col justify-center items-center border-2 bg-[#242424] border-opacity-50 border-[#343434] rounded-lg m-[0.25rem]">
           <Image alt="sun icon" src={sun}></Image>
-          <p className="text-center pt-2 text-[1.05rem]">Smart Investments Informed Decisions</p>
+          <p className="text-center px-2 pt-2 text-[1.05rem]">Smart Investments Informed Decisions</p>
         </div>
       </div>
       <div className="overflow-y-hidden mx-[1rem] mt-[3.7rem] lg:mx-[5vw]">
@@ -91,7 +91,7 @@ export default async function Home() {
             <p className="text-[#999999]">Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.</p>
           </div>
           <div className="max-lg:mt-[1rem] lg:my-[2rem] bottom-[3rem] flex max-md:flex-col gap-3">
-          <button className="max-md:w-full max-sm:w-[95vh] rounded-lg py-3 lg:px-3 bg-[#703BF7]">Browse properties</button>
+          <button className="max-md:w-full max-sm:w-[95vh] rounded-lg py-3 px-3 bg-[#703BF7]">Browse properties</button>
           </div>
         </div>
       </div>

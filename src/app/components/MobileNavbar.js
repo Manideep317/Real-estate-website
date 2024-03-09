@@ -37,8 +37,9 @@ function MobileNavbar() {
                         <Link href='/' className="py-[2rem] text-center shadow-md hover:bg-black w-full px-4">Properties</Link>
                         <Link href='/' className="py-[2rem] text-center shadow-md hover:bg-black w-full px-4">Services</Link>
                     </div>
-                    <div className='fixed bottom-10 border-2 p-[1rem] rounded-md hover:bg-black  border-[#262626]'>
-                        <div>Contact us</div>
+                    <div className='fixed flex w-[50%] justify-between bottom-10'>
+                        <Link href="/login" className="px-4 py-2 rounded-md bg-[#703BF7] hover:scale-105 hover:shadow-white hover:shadow-md hover:transition-shadow">Login</Link>
+                        <Link href="/" className="px-3 py-2 rounded-md bg-black font-semibold text-[#703bf7] hover:scale-105 hover:shadow-[#703bf7] hover:bg-white hover:text-[#703bf7] hover:shadow-md hover:transition-shadow">Signup</Link>
                     </div>
                 </div>
             ) : null}

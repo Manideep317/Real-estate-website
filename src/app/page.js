@@ -14,8 +14,8 @@ export default async function Home() {
       <div className="lg:flex lg:flex-row-reverse pt-[3.7rem] w-full">
 
         <div className="flex flex-col lg:w-[50%] lg:h-[80vh] items-center relative">
-          <Image src={home} alt="building img" className="max-md:w-[90%] max-lg:w-[80%] max-lg:mt-[1rem] lg:h-[100%] lg:w-[100%] max-lg:rounded-lg" />
-          <Image src={stamp} alt="stamp image" className="z-10 max-md:max-w-[30%] lg:-translate-x-[23vw] lg:translate-y-1/3 max-md:relative absolute max-md:right-[30%] max-md:bottom-[4rem]" />
+          <Image src={home} alt="building img" className="max-lg:w-[90%] max-lg:w-[80%] max-lg:mt-[1rem] lg:h-[100%] lg:w-[100%] max-lg:rounded-lg" />
+          <Image src={stamp} alt="stamp image" className="z-10 max-lg:max-w-[30%] lg:-translate-x-[23vw] lg:translate-y-1/3 max-lg:relative absolute max-lg:right-[30%] max-lg:bottom-[4rem]" />
         </div>
         <div className="mx-[1rem] lg:mx-[5vw] lg:my-auto flex flex-col justify-center lg:w-[50%]">
           <div className=" relative bottom-14">
@@ -84,14 +84,14 @@ export default async function Home() {
         </div>
         <Review />
       </div>
-      <div className="overflow-y-hidden mx-[1rem] mb-[3.7rem] mt-[3.7rem] lg:mx-[5vw]">
+      <div className="overflow-hidden mx-[1rem] mb-[3.7rem] mt-[3.7rem] lg:mx-[5vw]">
         <div className="flex items-center max-sm:flex-col justify-between">
           <div className="flex flex-col md:w-[65%]">
             <h1 className="text-[1.8rem] lg:text-[3rem] font-semibold">Start Your Real Estate Journey Today</h1>
             <p className="text-[#999999]">Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.</p>
           </div>
           <div className="max-lg:mt-[1rem] lg:my-[2rem] bottom-[3rem] flex max-md:flex-col gap-3">
-          <button className="max-md:w-full max-sm:w-[95vh] rounded-lg py-3 px-3 bg-[#703BF7]">Browse properties</button>
+          <button className="max-md:w-full max-sm:w-[90vw] rounded-lg py-3 px-3 bg-[#703BF7]">Browse properties</button>
           </div>
         </div>
       </div>

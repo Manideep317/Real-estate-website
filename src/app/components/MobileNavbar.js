@@ -34,7 +34,7 @@ function MobileNavbar() {
                     <div className='min-w-full flex flex-col bg-[#141414]'>
                         <Link href='/' className="py-[2rem] text-center shadow-md hover:bg-black w-full px-4">Home</Link>
                         <Link href='/' className="py-[2rem] text-center shadow-md hover:bg-black w-full px-4">About us</Link>
-                        <Link href='/' className="py-[2rem] text-center shadow-md hover:bg-black w-full px-4">Properties</Link>
+                        <Link href='/properties' className="py-[2rem] text-center shadow-md hover:bg-black w-full px-4">Properties</Link>
                         <Link href='/' className="py-[2rem] text-center shadow-md hover:bg-black w-full px-4">Services</Link>
                     </div>
                     <div className='fixed flex w-[50%] justify-between bottom-10'>

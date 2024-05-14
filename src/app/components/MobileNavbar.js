@@ -10,7 +10,7 @@ function MobileNavbar() {
     };
 
     return (
-        <div className='w-full md:hidden flex items-center justify-between'>
+        <div className='w-full md:hidden flex bg-black items-center justify-between'>
             <div className="">
                 <div className="flex items-center">
                     <Image src={logo} />

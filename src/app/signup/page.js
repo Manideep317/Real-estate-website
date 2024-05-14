@@ -37,7 +37,7 @@ export default function page() {
   }
 
   return (
-    <div className='w-full flex h-screen'>
+    <div className='w-full bg-black text-white flex h-screen'>
       <div className="md:w-[50svw] max-md:hidden md:h-full">
         <Image src={sideImg} className='max-h-full' />
       </div>

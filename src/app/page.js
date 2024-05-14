@@ -10,7 +10,7 @@ import Carousel from "./components/Carousel";
 import Review from "./components/Review";
 export default async function Home() {
   return (
-    <main className="min-h-screen w-full">
+    <main className="min-h-screen text-white bg-black w-full">
       <div className="lg:flex lg:flex-row-reverse pt-[3.7rem] w-full">
 
         <div className="flex flex-col lg:w-[50%] lg:h-[80vh] items-center relative">

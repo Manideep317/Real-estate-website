@@ -5,7 +5,7 @@ import MobileNavbar from './MobileNavbar';
 
 export default function Navbar() {
     return (
-        <header className='py-[1rem] z-50 top-0 flex items-center px-[1.5rem] fixed min-w-full bg-[#1A1A1A]'>
+        <header className='py-[1rem] text-white z-50 top-0 flex items-center px-[1.5rem] fixed min-w-full bg-[#1A1A1A]'>
             <div className="flex justify-between max-md:hidden items-center w-full">
                 <div className="flex items-center">
                     <Image alt='estatein' src={logo} />

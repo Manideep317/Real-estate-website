@@ -84,7 +84,7 @@ export default async function Home() {
         </div>
         <Review />
       </div>
-      <div className="overflow-hidden mx-[1rem] mb-[3.7rem] mt-[3.7rem] lg:mx-[5vw]">
+      <div className="overflow-hidden mx-[1rem] bg-black py-[4rem] lg:mx-[5vw]">
         <div className="flex items-center max-sm:flex-col justify-between">
           <div className="flex flex-col md:w-[65%]">
             <h1 className="text-[1.8rem] lg:text-[3rem] font-semibold">Start Your Real Estate Journey Today</h1>

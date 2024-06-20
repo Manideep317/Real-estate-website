@@ -6,7 +6,6 @@ export default async function Carousel() {
   const url = "https://manideep317.github.io/real-estate-data/data.json";
   const response = await fetch(url);
   const data = await response.json();
-  console.log(data);
   return (
     <div>
     <Suspense >

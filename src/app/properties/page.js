@@ -1,9 +1,11 @@
 import React from 'react'
-
-export default function page() {
+import Card from '@/src/app/components/Card.js';
+import Properties from './_components/Properties';
+async function page() {
   return (
-    <main className=''>
-      
+    <main className='w-full h-full bg-black'>
+      <Properties/>
     </main>
   )
 }
+export default page;

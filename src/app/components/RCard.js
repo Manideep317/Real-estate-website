@@ -3,7 +3,7 @@ import Image from 'next/image'
 function RCard({prop}) {
   return (
     <div>
-    <div className="bg-[#141414] hover:scale-105 lg:w-[30vw] sm:w-[350px] md:max-w-[50vw] flex-col p-4 max-sm:w-[92vw]  py-[0.75rem] rounded-lg my-4 px-[0.75rem]">
+    <div className="bg-[#141414] hover:scale-105 transition delay-100 ease-out lg:w-[30vw] sm:w-[350px] md:max-w-[50vw] flex-col p-4 max-sm:w-[92vw]  py-[0.75rem] rounded-lg my-4 px-[0.75rem]">
                 
                 <div className="mt-[0.5rem]">
                   

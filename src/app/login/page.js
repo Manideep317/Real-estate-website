@@ -17,7 +17,7 @@ export default function page() {
     signInWithEmailAndPassword(auth, email, password)
   .then((userCredential) => {
     const user = userCredential.user;
-    console.log(auth)
+    console.log(auth.lastNotifiedUid);
     redirect('/')
   })
   .catch((error) => {
@@ -28,10 +28,10 @@ export default function page() {
 
   return (
     <div className='w-full bg-black text-white flex h-screen'>
-      <div className="md:w-[50svw] md:h-full">
+      <div className="lg:w-1/2 lg:h-full max-lg:hidden">
         <Image src={sideImg} className='max-h-full' />
       </div>
-      <div className="md:w-[50svw] max-md:w-[100vw] md:h-full flex items-center justify-center">
+      <div className="lg:w-1/2 max-lg:w-[100vw] lg:h-full flex items-center justify-center">
         <div className="flex flex-col gap-4 items-center justify-center w-[600px] min-h-[700px]">
           <h3 className='text-2xl font-semibold'>Login</h3>
           <form action={HandleSubmit}>

@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 function Card({prop}) {
   return (
-    <div className="bg-[#14141480] hover:shadow-lg hover:shadow-[#703bf7] lg:min-w-[20rem] md:min-w-[20rem] max-sm:h-[10rem] sm:w-[350px] flex text-white justify-between lg:w-[25vw]  md:max-w-[50vw] flex-col p-4 max-sm:w-[92vw] md:h-[400px] sm:h-[380px]  max-md:min-h-[400px] max-md:w-[] py-[0.75rem] rounded-lg my-4">
+    <div className="bg-[#14141480] hover:shadow-lg hover:shadow-[#703bf7] lg:min-w-[20rem] md:min-w-[20rem] max-sm:h-[10rem] sm:w-[350px] flex text-white justify-between lg:w-[25vw]  md:max-w-[50vw] flex-col p-4 max-sm:w-[92vw] md:h-[400px] sm:h-[380px]  max-md:min-h-[400px] max-md:w-[] py-[0.75rem] rounded-lg my-2">
               <div className="mx-auto relative max-sm:h-[70%] overflow-hidden rounded-lg max-lg:h-[50%] max-md:h-[80%] md:h-[65%] h-[70%] w-[100%]">
                   <Image alt={prop.villa_name} className="rounded-lg transition delay-150 ease-in hover:scale-105" fill src={prop?.images[0]}/>
                 </div>

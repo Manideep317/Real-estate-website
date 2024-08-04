@@ -7,7 +7,7 @@ export default async function Properties() {
   const data = await response.json();
 
   return (
-    <div className="w-full h-full grid place-items-center py-[8vh] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 px-4 sm:px-8 lg:px-16 py-10">
+    <div className="w-full h-full grid place-items-center grid-flow-row-dense py-[8vh] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 px-4 sm:px-8 lg:px-16 py-10">
       <Suspense fallback={<div>Loading...</div>}>
         {data.map((props, index) => (
           <Card prop={props} key={index} />

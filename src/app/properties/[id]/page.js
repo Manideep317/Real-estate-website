@@ -15,7 +15,7 @@ export default async function page({ params }) {
     return (
       <main className='overflow-x-hidden w-full md:h-screen py-[1rem] bg-black'>
         <div className="pt-[8vh] px-[5vw]">
-          <div className="w-full">
+          <div className="w-full my-2">
             <h1 className="text-white text-2xl text-[1.5rem] font-semibold">{propertyData.villa_name}</h1>
             <h3 className="text-[#f2f2f2] text-[0.9rem] font-medium">{propertyData.villa_location}</h3>
           </div>

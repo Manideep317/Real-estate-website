@@ -2,7 +2,7 @@
 import React,{useState} from 'react'
 import google from '@/public/google.svg'
 import facebook from "@/public/facebook.svg"
-import {auth} from '@/src/app/config/firebase'
+import {auth,googleProvider} from '@/src/app/config/firebase'
 import {signInWithEmailAndPassword} from 'firebase/auth'
 import apple from "@/public/apple.svg"
 import Link from 'next/link'
@@ -24,6 +24,15 @@ export default function page() {
     const errorCode = error.code;
     const errorMessage = error.message;
   });
+  }
+  const googleSignup=async()=>{
+    try{
+      await signInWithPopup(auth,googleProvider);
+      Router.push("/");
+
+    }catch(err){
+      
+    }
   }
 
   return (
@@ -49,8 +58,7 @@ export default function page() {
             <span className='bg-black px-1'>or</span>
           </div>
           <div className="flex gap-4">
-            <button className='w-[48px] h-[48px] hover:scale-105 hover:shadow-[#703fb3] hover:shadow-lg bg-white rounded-lg'><Image src={google}/></button>
-            <button className='w-[48px] h-[48px] hover:scale-105 hover:shadow-[#703fb3] hover:shadow-lg bg-white rounded-lg'><Image src={facebook}/></button>
+            <button className='w-[48px] h-[48px] hover:scale-105 hover:shadow-[#703fb3] hover:shadow-lg bg-white rounded-lg' onClick={googleSignup}><Image src={google}/></button>
             <button className='w-[48px] h-[48px] hover:scale-105 hover:shadow-[#703fb3] hover:shadow-lg bg-white rounded-lg'><Image src={apple}/></button>
           </div>
           <p className="">if you don't have account? <Link className='underline' href="/signup">Signup</Link></p>

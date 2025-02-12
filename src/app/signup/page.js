@@ -68,7 +68,6 @@ export default function page() {
           </div>
           <div className="flex gap-4">
             <button onClick={googleSignup} className='w-[48px] h-[48px] hover:scale-105 hover:shadow-[#703fb3] hover:shadow-lg bg-white rounded-lg'><Image src={google}/></button>
-            <button className='w-[48px] h-[48px] hover:scale-105 hover:shadow-[#703fb3] hover:shadow-lg bg-white rounded-lg'><Image src={facebook}/></button>
             <button className='w-[48px] h-[48px] hover:scale-105 hover:shadow-[#703fb3] hover:shadow-lg bg-white rounded-lg'><Image src={apple}/></button>
           </div>
           <p className="">if you already have account? <Link className='underline' href="/login">login</Link></p>

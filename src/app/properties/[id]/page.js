@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Type from '../_components/Type.';
+import Type from '../_components/Type';
 import ImageSlider from '../_components/ImageSlider';
 
 

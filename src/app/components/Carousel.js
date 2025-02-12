@@ -9,14 +9,15 @@ export default async function Carousel() {
   return (
     <div>
     <Suspense >
-    <div className="flex overflow-y-hidden gap-[1rem] overflow-scroll">
+    <div className="flex gap-4 overflow-y-hidden overflwo-x-auto scroll-smooth scrollbar-hide snap-x snap-mandatory p-4 overflow-scroll">
           {
             data.slice(0,15).map((prop) => (
-                <Card key={data.id} prop={prop}/>
+              <div key={prop.id}  className="snap-center">
+                <Card prop={prop}/>
+              </div>
             ))
           }
       </div>
-    
     </Suspense>
 
       
